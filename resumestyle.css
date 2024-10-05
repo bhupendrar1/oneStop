@@ -113,7 +113,7 @@
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: coral;
+    color: purple;
 
     
   }
@@ -151,6 +151,8 @@
   .project p {
     font-size: 1rem;
     color: black;
+    display: flex;
+    display: block;
   
   }
   
