@@ -6,6 +6,7 @@
   <title>Portfolio || responsive</title>
   <link rel="stylesheet" href="resumestyle.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
   <!-- Navbar -->
@@ -15,7 +16,7 @@
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
     </div>
   </nav>
@@ -72,10 +73,43 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="container">
-    <h2>Contact Me</h2>
-    <p class="text-muted text-center fs-3">Here's our Contact Info</p>
   
-  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+
+    <div class="contact-info">
+        <p> <i class="fa-solid fa-envelope"></i> bhupendra2310030@akgec.ac.in</p>
+        <p><i class="fa-solid fa-phone"></i>+91 8887798256</p>
+        <p><i class="fa-brands fa-instagram"></i>
+        <a href="https://www.instagram.com/16_bhupendra/" target="_blank">Instagram</a></p>
+        <p><i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/bhupendra-singh-5234a828a/" target="_blank">LinkedIn</a></p> 
+        <p><i class="fa-brands fa-github"></i><a href="https://github.com/bhupendrar1" target="_blank">GitHub</a>
+        </p>
+        <p><i class="fa-brands fa-hackerrank"></i>
+          <a href="https://www.hackerrank.com/profile/bhupendra2310030" target="_blank">Hackerrank</a></p>
+    </div>
+
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message"> Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
 </body>
 </html>

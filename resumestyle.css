@@ -151,4 +151,77 @@
   }
   
   /* Contact Section */
-  
+  #contact {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
