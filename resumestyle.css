@@ -147,32 +147,8 @@
   .project p {
     font-size: 1rem;
     color: #f4f4f4;
-   
+  
   }
   
   /* Contact Section */
-  #contact p {
-    text-align: center;
-    font-size: 1.2rem;
-  }
-  
-  #contact a {
-    color: #007bff;
-  }
-  
-  #contact a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Footer Styles */
-  footer {
-    background: #333;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  footer p {
-    color: #fff;
-    font-size: 1rem;
-  }
   
