@@ -138,7 +138,7 @@
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210713/pngtree-abstract-simple-background-portfolio-image_741443.jpg);
     padding: 1.5rem;
     border-radius: 5px;
-    flex: 1;
+    flex: 1; 
   }
   
   .project h3 {
@@ -153,7 +153,7 @@
     color: black;
     display: flex;
     display: block;
-  
+  .
   }
   /* Skills section */
   .skills-section {
@@ -190,9 +190,7 @@
     color: #007bff;
 }
 
-.skill ul {
-    list-style-type: none;
-}
+
 
 .skill ul li {
     margin: 5px 0;
