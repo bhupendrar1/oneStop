@@ -190,7 +190,9 @@
     color: #007bff;
 }
 
-
+.skill ul {
+  list-style-type: none;
+}
 
 .skill ul li {
     margin: 5px 15px;
