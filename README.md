@@ -52,6 +52,3 @@ This repository contains a collection of HTML & CSS files that together form a p
   * Enhance styling with modern CSS frameworks (like Bootstrap/Tailwind).
 
 
-Contact (contact.html, contact.html4) – Forms/pages for contact details.
-
-Single Web Template (Bhupi singleweb.html) – Alternative web layout.
