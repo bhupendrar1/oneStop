@@ -37,7 +37,7 @@ This repository contains a collection of HTML & CSS files that together form a p
   🚀 Getting Started
 
      1 . Clone the repository:
-          git clone gh repo clone bhupendrar1/oneStop
+          git clone https://github.com/bhupendrar1
 
      2. Open index.html in your web browser to start navigating.
 
